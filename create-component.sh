@@ -3,8 +3,8 @@
 echo "💾 Create a new React component: $1 💾"
 
 # Create React functional component file
-echo "import React from 'react';
-import css from ./$1.module.scss
+echo "import React from 'react'
+import 'css from ./$1.module.scss'
 
 const $1 = () => {
   return (
