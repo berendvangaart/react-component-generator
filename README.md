@@ -7,10 +7,8 @@
 
 
 #### 2 Add the install directory to your path so you can access the script from anywhere
-```export PATH=$PATH:$(pwd)```
+```vim .bash_profile```
+add ```export PATH=~/bin:$PATH``` to the bash profile and save it with esc + :wq
 
 
-
-
-
-
+now you can create a component with ```bash create-component <ComponentName>```
